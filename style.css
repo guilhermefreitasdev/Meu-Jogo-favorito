@@ -1,0 +1,58 @@
+header {
+    padding: 16px 0;
+    background-color: rgb(255, 68, 68);
+    color: aliceblue;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav li{
+    color: aliceblue;
+    display: inline;
+    font-size: 18px;
+}
+header nav li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right:12px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.Game-Image {
+    height: 600px;
+}
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.Game-Image {
+    margin-right: 16px ;
+}
+section {
+    color: #182c61;
+}
