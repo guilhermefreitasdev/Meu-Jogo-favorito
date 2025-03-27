@@ -33,7 +33,7 @@ section .container {
     margin: 0 auto;
 }
 .Game-Image {
-    height: 600px;
+    height: 400px;
 }
 section .container{
     align-items: flex-start;
@@ -54,5 +54,19 @@ section p{
     margin-right: 16px ;
 }
 section {
-    color: #182c61;
+    color: #2c0c00;
+}
+
+
+.lista-marcas img {
+    height: 24px;
+}
+.lista-marcas li {
+    display: inline;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
 }
