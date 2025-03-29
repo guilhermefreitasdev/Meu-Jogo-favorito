@@ -5,7 +5,7 @@ header {
 
 }
 header{
-    font-family: "Boldonse", system-ui;
+    font-family: "Bungee", sans-serif;
     font-weight: 100;
 }
 * {
@@ -35,9 +35,6 @@ header .container
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
-}
-.container h2 {
-    font-family: "Boldonse", system-ui;
 }
 .Game-Image {
     height: 400px;
